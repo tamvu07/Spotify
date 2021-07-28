@@ -21,6 +21,7 @@
 		E567D20926B0EF0300E4BA3D /* AudioTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = E567D20826B0EF0300E4BA3D /* AudioTrack.swift */; };
 		E567D20C26B0EF1C00E4BA3D /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = E567D20B26B0EF1C00E4BA3D /* Artist.swift */; };
 		E567D20F26B0EF2F00E4BA3D /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = E567D20E26B0EF2F00E4BA3D /* UserProfile.swift */; };
+		E567D21426B1056500E4BA3D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E567D21326B1056500E4BA3D /* Extensions.swift */; };
 		E572769F26B0189600157C30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E572769E26B0189600157C30 /* AppDelegate.swift */; };
 		E57276A126B0189600157C30 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57276A026B0189600157C30 /* SceneDelegate.swift */; };
 		E57276A326B0189600157C30 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57276A226B0189600157C30 /* HomeViewController.swift */; };
@@ -46,6 +47,7 @@
 		E567D20826B0EF0300E4BA3D /* AudioTrack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioTrack.swift; sourceTree = "<group>"; };
 		E567D20B26B0EF1C00E4BA3D /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
 		E567D20E26B0EF2F00E4BA3D /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		E567D21326B1056500E4BA3D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		E572769B26B0189600157C30 /* Spotify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spotify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E572769E26B0189600157C30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E57276A026B0189600157C30 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -164,6 +166,7 @@
 				E57276A726B0189800157C30 /* Assets.xcassets */,
 				E572769E26B0189600157C30 /* AppDelegate.swift */,
 				E57276A026B0189600157C30 /* SceneDelegate.swift */,
+				E567D21326B1056500E4BA3D /* Extensions.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 				E567D1E726B0ED4300E4BA3D /* AuthViewController.swift in Sources */,
 				E572769F26B0189600157C30 /* AppDelegate.swift in Sources */,
 				E567D20F26B0EF2F00E4BA3D /* UserProfile.swift in Sources */,
+				E567D21426B1056500E4BA3D /* Extensions.swift in Sources */,
 				E57276C226B01D2800157C30 /* LibraryViewController.swift in Sources */,
 				E567D20C26B0EF1C00E4BA3D /* Artist.swift in Sources */,
 				E567D1F726B0EE1A00E4BA3D /* PlaylistViewController.swift in Sources */,
@@ -409,7 +413,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6C99TY569A;
 				INFOPLIST_FILE = Spotify/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -429,7 +433,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6C99TY569A;
 				INFOPLIST_FILE = Spotify/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
