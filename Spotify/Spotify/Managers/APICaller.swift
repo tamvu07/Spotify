@@ -83,9 +83,9 @@ final class APICaller {
                       })
     }
     
-    public func getRecommendations(genres: Set<String>, completion: @escaping ((Result<String, Error>) -> Void)) {
+    public func getRecommendations(genres: Set<String>, completion: @escaping ((Result<RecommendationsResponse, Error>) -> Void)) {
         let seeds = genres.joined(separator: ",")
-        createRequest(with: URL(string: Constants.baseAPIURL + "/recommendations?seed_genres=\(seeds)"),
+        createRequest(with: URL(string: Constants.baseAPIURL + "/recommendations?limit=40&seed_genres=\(seeds)"),
                       type: .GET,
                       completion: { request in
                         print(request.url?.absoluteString)
@@ -95,10 +95,8 @@ final class APICaller {
                                 return
                             }
                             do {
-                                let result = try JSONSerialization.jsonObject(with: data, options: .allowFragments)
-                                    //JSONDecoder().decode(FeaturedPlaylistResponse.self, from: data)
-                                print(result)
-//                                completion(.success(result))
+                                let result = try JSONDecoder().decode(RecommendationsResponse.self, from: data)
+                                completion(.success(result))
                             } catch {
                                 completion(.failure(error))
                             }

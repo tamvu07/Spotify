@@ -36,6 +36,7 @@
 		E5759AD826B251B900E02182 /* NewReleasesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5759AD726B251B900E02182 /* NewReleasesResponse.swift */; };
 		E5759ADB26B25B2300E02182 /* FeaturedplaylistsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5759ADA26B25B2300E02182 /* FeaturedplaylistsResponse.swift */; };
 		E5759AFD26B27D2200E02182 /* RecommendedGenresResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5759AFC26B27D2200E02182 /* RecommendedGenresResponse.swift */; };
+		E5759B0026B2840C00E02182 /* RecommendationsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5759AFF26B2840C00E02182 /* RecommendationsResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +73,7 @@
 		E5759AD726B251B900E02182 /* NewReleasesResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewReleasesResponse.swift; sourceTree = "<group>"; };
 		E5759ADA26B25B2300E02182 /* FeaturedplaylistsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedplaylistsResponse.swift; sourceTree = "<group>"; };
 		E5759AFC26B27D2200E02182 /* RecommendedGenresResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendedGenresResponse.swift; sourceTree = "<group>"; };
+		E5759AFF26B2840C00E02182 /* RecommendationsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendationsResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +171,7 @@
 				E5759AD726B251B900E02182 /* NewReleasesResponse.swift */,
 				E5759ADA26B25B2300E02182 /* FeaturedplaylistsResponse.swift */,
 				E5759AFC26B27D2200E02182 /* RecommendedGenresResponse.swift */,
+				E5759AFF26B2840C00E02182 /* RecommendationsResponse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -351,6 +354,7 @@
 				E5759AFD26B27D2200E02182 /* RecommendedGenresResponse.swift in Sources */,
 				E5759ADB26B25B2300E02182 /* FeaturedplaylistsResponse.swift in Sources */,
 				E567D20F26B0EF2F00E4BA3D /* UserProfile.swift in Sources */,
+				E5759B0026B2840C00E02182 /* RecommendationsResponse.swift in Sources */,
 				E567D21426B1056500E4BA3D /* Extensions.swift in Sources */,
 				E57276C226B01D2800157C30 /* LibraryViewController.swift in Sources */,
 				E567D20C26B0EF1C00E4BA3D /* Artist.swift in Sources */,
