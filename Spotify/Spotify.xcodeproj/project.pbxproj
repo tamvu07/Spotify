@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -33,6 +33,9 @@
 		E57276BC26B01CCB00157C30 /* TabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57276BB26B01CCB00157C30 /* TabbarViewController.swift */; };
 		E57276BF26B01D0800157C30 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57276BE26B01D0800157C30 /* SearchViewController.swift */; };
 		E57276C226B01D2800157C30 /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57276C126B01D2800157C30 /* LibraryViewController.swift */; };
+		E5759AD826B251B900E02182 /* NewReleasesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5759AD726B251B900E02182 /* NewReleasesResponse.swift */; };
+		E5759ADB26B25B2300E02182 /* FeaturedplaylistsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5759ADA26B25B2300E02182 /* FeaturedplaylistsResponse.swift */; };
+		E5759AFD26B27D2200E02182 /* RecommendedGenresResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5759AFC26B27D2200E02182 /* RecommendedGenresResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +69,9 @@
 		E57276BB26B01CCB00157C30 /* TabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarViewController.swift; sourceTree = "<group>"; };
 		E57276BE26B01D0800157C30 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		E57276C126B01D2800157C30 /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
+		E5759AD726B251B900E02182 /* NewReleasesResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewReleasesResponse.swift; sourceTree = "<group>"; };
+		E5759ADA26B25B2300E02182 /* FeaturedplaylistsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedplaylistsResponse.swift; sourceTree = "<group>"; };
+		E5759AFC26B27D2200E02182 /* RecommendedGenresResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendedGenresResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +166,9 @@
 				E567D20E26B0EF2F00E4BA3D /* UserProfile.swift */,
 				E567D21626B12E3D00E4BA3D /* AuthResponse.swift */,
 				E567D21926B1580400E4BA3D /* SettingsModels.swift */,
+				E5759AD726B251B900E02182 /* NewReleasesResponse.swift */,
+				E5759ADA26B25B2300E02182 /* FeaturedplaylistsResponse.swift */,
+				E5759AFC26B27D2200E02182 /* RecommendedGenresResponse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -209,7 +218,6 @@
 				6F84A10C78EC77B6FCBF4C71 /* Pods-Spotify.debug.xcconfig */,
 				2BAB101BB11DBCA9D8CA31FD /* Pods-Spotify.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -335,10 +343,13 @@
 				E57276BC26B01CCB00157C30 /* TabbarViewController.swift in Sources */,
 				E567D20326B0EEC800E4BA3D /* HapticsManager.swift in Sources */,
 				E567D21726B12E3D00E4BA3D /* AuthResponse.swift in Sources */,
+				E5759AD826B251B900E02182 /* NewReleasesResponse.swift in Sources */,
 				E567D20926B0EF0300E4BA3D /* AudioTrack.swift in Sources */,
 				E57276A326B0189600157C30 /* HomeViewController.swift in Sources */,
 				E567D1E726B0ED4300E4BA3D /* AuthViewController.swift in Sources */,
 				E572769F26B0189600157C30 /* AppDelegate.swift in Sources */,
+				E5759AFD26B27D2200E02182 /* RecommendedGenresResponse.swift in Sources */,
+				E5759ADB26B25B2300E02182 /* FeaturedplaylistsResponse.swift in Sources */,
 				E567D20F26B0EF2F00E4BA3D /* UserProfile.swift in Sources */,
 				E567D21426B1056500E4BA3D /* Extensions.swift in Sources */,
 				E57276C226B01D2800157C30 /* LibraryViewController.swift in Sources */,
