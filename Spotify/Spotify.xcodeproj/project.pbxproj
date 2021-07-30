@@ -40,6 +40,7 @@
 		E5759B0426B29AD200E02182 /* NewReleaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5759B0326B29AD100E02182 /* NewReleaseCollectionViewCell.swift */; };
 		E5759B0726B29B3300E02182 /* FeaturedPlaylistCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5759B0626B29B3300E02182 /* FeaturedPlaylistCollectionViewCell.swift */; };
 		E5759B0A26B29B7900E02182 /* RecommendedtrackCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5759B0926B29B7900E02182 /* RecommendedtrackCollectionViewCell.swift */; };
+		E5759B1026B2B81400E02182 /* NewReleasesCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5759B0F26B2B81400E02182 /* NewReleasesCellViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -80,6 +81,7 @@
 		E5759B0326B29AD100E02182 /* NewReleaseCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewReleaseCollectionViewCell.swift; sourceTree = "<group>"; };
 		E5759B0626B29B3300E02182 /* FeaturedPlaylistCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedPlaylistCollectionViewCell.swift; sourceTree = "<group>"; };
 		E5759B0926B29B7900E02182 /* RecommendedtrackCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendedtrackCollectionViewCell.swift; sourceTree = "<group>"; };
+		E5759B0F26B2B81400E02182 /* NewReleasesCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewReleasesCellViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,6 +188,7 @@
 		E57276B626B0192400157C30 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				E5759B0F26B2B81400E02182 /* NewReleasesCellViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -363,6 +366,7 @@
 				E57276BC26B01CCB00157C30 /* TabbarViewController.swift in Sources */,
 				E567D20326B0EEC800E4BA3D /* HapticsManager.swift in Sources */,
 				E567D21726B12E3D00E4BA3D /* AuthResponse.swift in Sources */,
+				E5759B1026B2B81400E02182 /* NewReleasesCellViewModel.swift in Sources */,
 				E5759AD826B251B900E02182 /* NewReleasesResponse.swift in Sources */,
 				E567D20926B0EF0300E4BA3D /* AudioTrack.swift in Sources */,
 				E57276A326B0189600157C30 /* HomeViewController.swift in Sources */,
