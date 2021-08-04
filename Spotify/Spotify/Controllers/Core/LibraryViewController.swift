@@ -12,13 +12,13 @@ class LibraryViewController: UIViewController {
     private let playlistsVC = LibraryPlaylistsViewController()
     private let albumVC = LibraryAlbumsViewController()
     
+    private let toggleView = LibraryToggleView()
+    
     private let scrollView: UIScrollView = {
         let scrollView = UIScrollView()
         scrollView.isPagingEnabled = true
         return scrollView
     }()
-
-    private let toggleView = LibraryToggleView()
     
     override func viewDidLoad() {
         super.viewDidLoad()
